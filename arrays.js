@@ -33,14 +33,14 @@ function accessElementInArray(array,index){
 }
 accessElementInArray(([1, 2, 3], 2))
   
-  /*
 //5
-function removeElementFromBeginningOfArray(array){
+function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift
   return array
 }
 removeElementFromBeginningOfArray([1, 2, 3])
   
+  /*
 //6
 function removeElementFromBeginningOfArray(array){
   array.slice(1)  
