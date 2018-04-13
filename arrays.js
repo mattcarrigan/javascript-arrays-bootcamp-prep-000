@@ -40,14 +40,14 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 }
 removeElementFromBeginningOfArray([1, 2, 3])
   
-  /*
 //6
 function removeElementFromBeginningOfArray(array){
-  array.slice(1)  
+  array.slice(1)
+  return array
 }
 removeElementFromBeginningOfArray([1,2,3])
 
-
+  /*
 //7
 function destructivelyRemoveElementFromEndOfArray(array){
   array.pop()
