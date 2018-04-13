@@ -27,13 +27,13 @@ function destructivelyAddElementToEndOfArray(array,element){
 }
   destructivelyAddElementToEndOfArray([1],'foo')
   
-  /*
 //4
 function accessElementInArray(array,index){
   return (array[index])
 }
 accessElementInArray(([1, 2, 3], 2))
   
+  /*
 //5
 function removeElementFromBeginningOfArray(array){
   array.shift
