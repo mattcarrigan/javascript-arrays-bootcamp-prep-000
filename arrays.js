@@ -55,8 +55,8 @@ destructivelyRemoveElementFromEndOfArray([1,2,3])
 
 //#8
 function removeElementFromEndOfArray(array){
-  array.slice(array.length - 1)
-  return array
+  return array.slice(array.length - 1)
+  //return array
 }
 removeElementFromEndOfArray([1,2,3])
 
