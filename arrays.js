@@ -16,19 +16,19 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 }
 destructivelyAddElementToBeginningOfArray ([1],'foo');
 
-/*
 // #3
 function addElementToEndOfArray(array,element){
   return [...array,element];
 }
-addElementToEndOfArray(array,'foo')
+addElementToEndOfArray([1],'foo')
 
 function destructivelyAddElementToEndOfArray(array,element){
   array.push(element)
   return array
 }
-  destructivelyAddElementToEndOfArray(array,'foo')
+  destructivelyAddElementToEndOfArray([1],'foo')
   
+  /*
 //4
 function accessElementInArray(array,index){
   return (array[index])
