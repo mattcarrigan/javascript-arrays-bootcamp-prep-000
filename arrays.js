@@ -1,22 +1,22 @@
 //#1
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-//#2.1
-var array = [1];
+// #2
+const array = [1];
 
 function addElementToBeginningOfArray (array,element) {
-  return [element, ...array];
+  [element, ...array];
+  return array
 }
 addElementToBeginningOfArray (array, 'foo');
 
-//#2.2
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.unshift(element)
   return array
 }
 destructivelyAddElementToBeginningOfArray (array,'foo');
 
-//3
+// #3
 function addElementToEndOfArray(array,element){
   return [...array,element];
 }
