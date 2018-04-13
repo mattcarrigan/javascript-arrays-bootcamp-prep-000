@@ -42,8 +42,7 @@ removeElementFromBeginningOfArray([1, 2, 3])
   
 //6
 function removeElementFromBeginningOfArray(array){
-  array.slice(1)
-  return array
+  return array.slice(1)
 }
 removeElementFromBeginningOfArray([1,2,3])
 
