@@ -6,13 +6,13 @@ const array = [1]
 
 function addElementToBeginningOfArray (array,element) {
   [element, ...array];
-  return array
+  return array;
 }
 addElementToBeginningOfArray (array, 'foo');
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  array.unshift(element)
-  return array
+  array.unshift(element);
+  return array;
 }
 destructivelyAddElementToBeginningOfArray (array,'foo');
 
